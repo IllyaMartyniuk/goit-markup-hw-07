@@ -31,12 +31,12 @@
 .constant-logo-icon {
   fill: currentColor;
 }
-.company-icon .constant-logo-link {
+ .constant-logo-link {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.company-icon .constant-logo-link:hover,
-.company-icon .constant-logo-link:focus {
+ .constant-logo-link:hover,
+ .constant-logo-link:focus {
   color: var(--hover-focus-color);
 }
