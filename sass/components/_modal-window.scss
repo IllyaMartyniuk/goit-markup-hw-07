@@ -19,11 +19,12 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   background-color:#ffffff;
+    &:focus,
+    &:hover{
+      fill:var(--hover-focus-color)
+    }
 }
-.close-btn:focus,
-.close-btn:hover{
- fill:var(--hover-focus-color)
-}
+
 
 .svg-btn{
   width: 11px;
@@ -75,23 +76,11 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-input:focus{
-  outline: none;
-  border-color: var(--hover-focus-color);
-}
-
-.modal-form-input:focus +.modal-form-icon-user{
-  fill: var(--hover-focus-color);
-}
-
-.modal-form-input:focus ~.modal-form-icon-tel{
-  fill: var(--hover-focus-color);
-}
-
-.modal-form-input:focus ~.modal-form-icon-email{
-  fill: var(--hover-focus-color);
+   
+    &:focus{
+      outline: none;
+      border-color: var(--hover-focus-color);
+    }
 }
 
 .modal-form-icon-user{
@@ -102,7 +91,11 @@
   width: 18px;
   height: 18px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+      .modal-form-input:focus + & {
+          fill: var(--hover-focus-color);
+                    }
+    }
+
 .modal-form-icon-tel{
   position: absolute;
   top: 50%;
@@ -111,6 +104,9 @@
   width: 18px;
   height: 18px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      .modal-form-input:focus + & {
+          fill: var(--hover-focus-color);
+                    }
 }
 .modal-form-icon-email{
   position: absolute;
@@ -120,6 +116,9 @@
   width: 18px;
   height: 18px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      .modal-form-input:focus + & {
+          fill: var(--hover-focus-color);
+                    }
 }
 
 .modal-form-message{
