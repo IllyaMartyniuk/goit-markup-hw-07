@@ -3,14 +3,12 @@
 }
 .list-team {
   display: flex;
-}
-.list-team .li-team:not(:last-child) {
-  margin-right: 30px;
-}
-.list-team {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+.list-team .li-team:not(:last-child) {
+  margin-right: 30px;
 }
 
 .li-team {
