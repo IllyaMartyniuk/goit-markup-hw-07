@@ -88,8 +88,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link
-.social-list-item:hover, .social-list-item:focus {
+.social-list-item .social-list-link:hover, .social-list-item .social-list-link:focus {
   color: var(--hover-focus-text-color);
   background-color: var(--hover-focus-color);
 }
