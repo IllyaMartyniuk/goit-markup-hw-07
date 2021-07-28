@@ -1,0 +1,121 @@
+.footer {
+  background-color: #2f303a;
+  padding: 60px 0;
+}
+.text-adress {
+  margin-bottom: 9px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.adress {
+  display: inline-block;
+  margin: 0px;
+}
+.adress p {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+.footer-contact a:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.mail-adress-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.tel-adress-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.logo-text-footer {
+  color: #ffffff;
+}
+.logo-footer {
+  display: inline-block;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+.footer-social-sabtitle {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1, 14;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-social-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social-list-flex {
+  display: inline-flex;
+}
+.footer-social-li .footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.footer-social-list .footer-social-li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.footer-social-link:focus,
+.footer-social-link:hover {
+  background-color: var(--hover-focus-color);
+}
+
+.container-footer-adress {
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+.container-footer-flex {
+  display: flex;
+}
+
+.container-social-list-flex {
+  display: inline-block;
+  margin-right: 93px;
+}
+.container-footer-contact {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}

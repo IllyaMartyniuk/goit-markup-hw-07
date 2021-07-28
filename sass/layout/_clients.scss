@@ -1,0 +1,42 @@
+.constant-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.constant-company {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.constant-list {
+  display: flex;
+  justify-content: space-between;
+}
+.constant-logo-icon {
+  width: 160px;
+  height: 60px;
+}
+.constant-logo-link {
+  padding: 16px 32px;
+  width: 170px;
+  height: 92px;
+  border: 1px solid currentColor;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #afb1b8;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.constant-logo-icon {
+  fill: currentColor;
+}
+.company-icon .constant-logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.company-icon .constant-logo-link:hover,
+.company-icon .constant-logo-link:focus {
+  color: var(--hover-focus-color);
+}
