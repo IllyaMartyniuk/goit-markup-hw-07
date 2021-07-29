@@ -14,62 +14,6 @@
   text-decoration: none;
   display: block;
   margin-right: 93px;
-}
-
-.menu-list {
-  margin-top: 0;
-  margin-bottom: 0;
-  display: flex;
-  padding: 0;
-  list-style: none;
-}
-.menu-li .menu-link {
-  display: block;
-}
-.menu-li:not(:last-child) {
-  margin-right: 50px;
-}
-.menu-link {
-  text-decoration: none;
-}
-.header-contact-link {
-  margin-top: 0;
-  margin-bottom: 0;
-  display: flex;
-  margin-left: auto;
-  padding: 0;
-  list-style: none;
-}
-.header-contact-icon-envelope {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.header-contact-icon-smartphone {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.header-contact-li:not(:last-child) {
-  margin-right: 50px;
-}
-
-.contact {
-  text-decoration: none;
-}
-.logo-text {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
-}
-.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -77,7 +21,62 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
-.menu-link {
+
+.menu {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+.menu__item .menu__link {
+  display: block;
+}
+.menu__item:not(:last-child) {
+  margin-right: 50px;
+}
+.menu__link {
+  text-decoration: none;
+}
+.contact {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  margin-left: auto;
+  padding: 0;
+  list-style: none;
+}
+.contact__icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contact__icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contact__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+.logo__text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.menu__link {
      &:hover,
      &:focus {
        color: var(--hover-focus-color);
@@ -92,7 +91,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mail-link {
+.contact__link {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -110,7 +109,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/*
 .tel-link {
   display: flex;
   flex-direction: row-reverse;
@@ -129,6 +128,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+*/
 
 .current {
   color: var(--hover-focus-color);
